@@ -1,12 +1,19 @@
-# React + Vite
+# React Router Vite Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a starter template for building React applications using [Vite](https://vitejs.dev/) and [React Router v6](https://reactrouter.com/en/main). It includes Tailwind CSS for styling and demonstrates modern routing patterns, including nested routes, dynamic params, and data loading with route loaders.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Fast development with Vite
+- 🧭 Routing with React Router v6
+- 🎨 Styling with Tailwind CSS
+- 🗂️ Organized component structure
+- 🔗 Example routes: Home, About, Contact, Github (with loader), User (dynamic param)
+- 🧑‍💻 ESLint configuration for code quality
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+```sh
+npm install
